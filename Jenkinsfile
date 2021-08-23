@@ -21,8 +21,8 @@ pipeline {
             when { not { branch 'main' } }
             steps {
                 sh 'echo "this runs on tagged PRs"'
-                }
             }
         }
-    }
+   }
+ 
 }
